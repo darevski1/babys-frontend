@@ -1,0 +1,33 @@
+$green: #96bb36;
+$grey: #636b72;
+
+/*# Default button styles */
+.btt {
+  padding: 10px 14px;
+  touch-action: manipulation;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+.green-btn {
+  background: $green;
+  box-shadow: 0px 3px 6px #00000029;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+}
+.outline-grey {
+  background: none;
+  border: 1px solid #a5a5a5;
+  text-decoration: none;
+  color: $grey;
+  font-weight: 500;
+}
