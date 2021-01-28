@@ -1,3 +1,9 @@
 .container {
   @include container;
 }
+.col-4 {
+  width: 45%;
+}
+.col-6 {
+  width: 55%;
+}

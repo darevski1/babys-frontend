@@ -16,7 +16,6 @@ $grey: #636b72;
   vertical-align: middle;
   border-radius: 5px;
 }
-
 .green-btn {
   background: $green;
   box-shadow: 0px 3px 6px #00000029;
@@ -30,4 +29,24 @@ $grey: #636b72;
   text-decoration: none;
   color: $grey;
   font-weight: 500;
+}
+.sl-btn {
+  background: $green;
+  padding: 4px 7px;
+  color: #ffffff;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+}
+.pill {
+  background-color: $green;
+  border: none;
+  color: #ffffff;
+  padding: 2px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
 }

@@ -9,3 +9,9 @@
 .align-center {
   @include flex-center;
 }
+.flex-row {
+  @include flex-row;
+}
+.flex-col {
+  @include flex-col;
+}

@@ -4,3 +4,28 @@
 .orange {
   color: $orange;
 }
+.mr-8 {
+  margin-right: 8px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.f14 {
+  font-size: 14px;
+}
+.p20 {
+  padding: 20px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.line-header {
+  height: 1px;
+  min-width: calc(100% - 250px);
+  background: $light-grey;
+  margin-top: 50px;
+  float: right;
+}
