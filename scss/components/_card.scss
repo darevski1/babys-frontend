@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   cursor: pointer;
+  margin-bottom: 65px;
 }
 .card_heading {
   width: 100%;
@@ -34,7 +35,7 @@
     color: $orange;
   }
   & p {
-    height: 79px;
+    min-height: 79px;
     font-size: 14px;
   }
 }
@@ -42,7 +43,7 @@
   list-style: none;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 20px;
+  margin-top: 10px;
 
   & li {
     display: flex;
@@ -118,3 +119,52 @@
   margin-top: 15px;
   font-size: 14px;
 }
+
+@media screen and (min-width: 769px) and (max-width: 805px) {
+  .card {
+    box-shadow: 0px 10px 20px #00000012;
+    border: 1px solid #d8d8d8;
+    max-width: 290px;
+    height: 428px;
+    background: #ffffff;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-bottom: 65px;
+    width: 33%;
+  }
+}
+// @media screen and (min-width: 806px) and (max-width: 940px) {
+//   .card {
+//     box-shadow: 0px 10px 20px #00000012;
+//     border: 1px solid #d8d8d8;
+//     max-width: 323px;
+//     height: 428px;
+//     background: #ffffff;
+//     border-radius: 5px;
+//     position: relative;
+//     display: flex;
+//     flex-direction: column;
+//     cursor: pointer;
+//     margin-bottom: 65px;
+//     width: 33%;
+//   }
+// }
+// @media screen and (min-width: 945px) and (max-width: 1282px) {
+//   .card {
+//     box-shadow: 0px 10px 20px #00000012;
+//     border: 1px solid #d8d8d8;
+//     max-width: 303px;
+//     height: 428px;
+//     background: #ffffff;
+//     border-radius: 5px;
+//     position: relative;
+//     display: flex;
+//     flex-direction: column;
+//     cursor: pointer;
+//     margin-bottom: 65px;
+//     width: 33%;
+//   }
+// }

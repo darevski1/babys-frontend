@@ -7,96 +7,65 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/all.css">
     <script src="assets/js/all.js"></script>
-
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 </head>
 
 <body>
-    <nav>
-        <div class="container flex-space-between">
-            <a href="/"> <img src="/assets/images/logo.jpg" alt="Logo for baby`s"></a>
-            <div class="navbar align-center">
+    <nav class="navigation">
+        <div class="wrapper">
+            <div class="wr">
+                <img src="assets/images/logo.jpg" class="brand" alt="">
+                <a href="index.html"></a>
+                <ion-icon name="menu" id="togler"></ion-icon>
+            </div>
+
+            <div class="navbar" id="colapse">
                 <ul>
-                    <li><a href="#">BREAKFAST</a> </li>
+                    <li><a href="##">BREAKFAST</a></li>
                     <li>
                         <div class="circle"></div>
                     </li>
-                    <li><a href="#">BRUNCH</a></li>
+                    <li><a href="##">BRUNCH</a></li>
                     <li>
                         <div class="circle"></div>
                     </li>
-                    <li><a href="#">LUNCH</a></li>
+                    <li><a href="##">LUNCH</a></li>
                     <li>
                         <div class="circle"></div>
                     </li>
-                    <li><a href="#">DINNER</a></li>
+                    <li><a href="##">DINNER</a></li>
+
                 </ul>
-                <a href="" class="btt outline-grey">LOG IN</a>
-                <p class="ml orange">or</p>
-                <a href="" class="btt green-btn">CREATE ACCOUNT</a>
+                <div class="btn-group">
+                    <a href="singin.html" class="btt outline-grey">LOG IN</a>
+                    <p class="ml orange mt-10">or</p>
+                    <a href="" class="btt green-btn">CREATE ACCOUNT</a>
+                </div>
             </div>
         </div>
     </nav>
-
-    <div class="header mb-20">
-        <div class="container flex-row flex-space-between">
-
-            <h1 class="title-heading">Fresh & New</h1>
-            <div class="line-header"></div>
-        </div>
-
-    </div>
-    <div class="container">
-        <div class="card">
-            <div class="card_heading">
-                <img src="/assets/images/food/external-content.duckduckgo.com.jpg" alt="">
+    <div class="wraper">
+        <div class="container">
+            <div class="header mb-50 mt-50">
+                <div class="row flex-space-between">
+                    <h1 class="title-heading">Fresh & New</h1>
+                    <div class="line-header"></div>
+                </div>
             </div>
-            <div class="card-body">
-                <h3>Homemade pizza</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus laborum illo quae
-                    doloremque
-                    iusto esse adipisci amet. Accusamus voluptatibus, dfsd Voluptatibus Voluptatibus
-                </p>
-
-                <ul>
-                    <li>
-                        <i class="far fa-clock mr-8 "></i> 45 min
-                    </li>
-                    <li>
-                        <i class="fas fa-utensils mr-8"></i> 4 persons
-                    </li>
-                    <li>
-                        <i class="far fa-star mr-8"></i> 22
-                    </li>
-                    <li class="last-item">
-                        <button class="sl-btn"><i class="fas fa-angle-double-right"></i></button>
-                    </li>
-                </ul>
-
-            </div>
-
-        </div>
-
-        <div class="modal">
-            <div class="title">Mac & Bacon (super)</div>
-            <div class="modal-body flex-row">
-                <div class="col-4 flex-col">
-                    <div class="img-container">
+            <div class="flex-row flex-space-between max-wrap">
+                <div class="card">
+                    <div class="card_heading">
                         <img src="assets/images/food/external-content.duckduckgo.com.jpg" alt="">
                     </div>
-                    <div class="mt-10 align-center flex-space-between">
-                        <h3 class="mtitle">Some time manddd</h3>
-                        <button class="pill">launch</button>
-                    </div>
-                    <div class="wraper-body">
-                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
-                            laborum
-                            illo quae
+                    <div class="card-body">
+                        <h3>Homemade pizza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus laborum illo quae
                             doloremque
                             iusto esse adipisci amet. Accusamus voluptatibus, dfsd Voluptatibus Voluptatibus
                         </p>
+
                         <ul>
                             <li>
                                 <i class="far fa-clock mr-8 "></i> 45 min
@@ -107,48 +76,239 @@
                             <li>
                                 <i class="far fa-star mr-8"></i> 22
                             </li>
-
+                            <li class="last-item">
+                                <button class="sl-btn"><i class="fas fa-angle-double-right"></i></button>
+                            </li>
                         </ul>
 
                     </div>
+
                 </div>
-                <div class="col-6 flex-col ml-20">
-                    <h3 class="mtitle">Some time manddd</h3>
-                    <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias dolor distinctio
-                        sed
-                        eos aut nisi commodi laboriosam fuga facere. Saepe ea asperiores itaque corrupti sequi amet
+                <div class="card">
+                    <div class="card_heading">
+                        <img src="assets/images/food/external-content.duckduckgo.com.jpg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3>Homemade pizza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus laborum illo quae
+                            doloremque
+                            iusto esse adipisci amet. Accusamus voluptatibus, dfsd Voluptatibus Voluptatibus
+                        </p>
 
-                        <br />
-                        <br />
-                        Alias ea ipsum, quibusdam nihil cumque optio, vero soluta, a error eius pariatur. Adipisci,
-                        poss voluptate eligendi quod esse ut, modi enim
-                        dolorem nostrum.
-                        <br />
-                        <br />
-                        Suscipit nam provident obcaecati iure iusto harum similique dolorem adi ga, laudantium
-                        tempora
-                        ullam, sequi debitis quidem
+                        <ul>
+                            <li>
+                                <i class="far fa-clock mr-8 "></i> 45 min
+                            </li>
+                            <li>
+                                <i class="fas fa-utensils mr-8"></i> 4 persons
+                            </li>
+                            <li>
+                                <i class="far fa-star mr-8"></i> 22
+                            </li>
+                            <li class="last-item">
+                                <button class="sl-btn"><i class="fas fa-angle-double-right"></i></button>
+                            </li>
+                        </ul>
 
-                        <br />
-                        <br />
-                        Suscipit nam provident obcaecati iure iusto harum similique dolorem adipisci odio magnam
-                        reiciendis at quisquam praesentium commodi fuga, laudantium tempora ullam, sequi debitis
-                        quidem
+                    </div>
 
+                </div>
+                <div class="card">
+                    <div class="card_heading">
+                        <img src="assets/images/food/external-content.duckduckgo.com.jpg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3>Homemade pizza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus laborum illo quae
+                            doloremque
+                            iusto esse adipisci amet. Accusamus voluptatibus, dfsd Voluptatibus Voluptatibus
+                        </p>
 
-                    </p>
+                        <ul>
+                            <li>
+                                <i class="far fa-clock mr-8 "></i> 45 min
+                            </li>
+                            <li>
+                                <i class="fas fa-utensils mr-8"></i> 4 persons
+                            </li>
+                            <li>
+                                <i class="far fa-star mr-8"></i> 22
+                            </li>
+                            <li class="last-item">
+                                <button class="sl-btn"><i class="fas fa-angle-double-right"></i></button>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="header mb-60">
+                <div class=" flex-row flex-space-between">
+                    <h1 class="title-heading">Fresh &amp; New</h1>
+                    <div class="line-header"></div>
+                </div>
+            </div>
+            <div class="row flex-space-between max-wrap">
+                <div class="card">
+                    <div class="card_heading">
+                        <img src="assets/images/food/external-content.duckduckgo.com.jpg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3>Homemade pizza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus laborum illo quae
+                            doloremque
+                            iusto esse adipisci amet. Accusamus voluptatibus, dfsd Voluptatibus Voluptatibus
+                        </p>
+
+                        <ul>
+                            <li>
+                                <i class="far fa-clock mr-8 "></i> 45 min
+                            </li>
+                            <li>
+                                <i class="fas fa-utensils mr-8"></i> 4 persons
+                            </li>
+                            <li>
+                                <i class="far fa-star mr-8"></i> 22
+                            </li>
+                            <li class="last-item">
+                                <button class="sl-btn"><i class="fas fa-angle-double-right"></i></button>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="card_heading">
+                        <img src="assets/images/food/external-content.duckduckgo.com.jpg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3>Homemade pizza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus laborum illo quae
+                            doloremque
+                            iusto esse adipisci amet. Accusamus voluptatibus, dfsd Voluptatibus Voluptatibus
+                        </p>
+
+                        <ul>
+                            <li>
+                                <i class="far fa-clock mr-8 "></i> 45 min
+                            </li>
+                            <li>
+                                <i class="fas fa-utensils mr-8"></i> 4 persons
+                            </li>
+                            <li>
+                                <i class="far fa-star mr-8"></i> 22
+                            </li>
+                            <li class="last-item">
+                                <button class="sl-btn"><i class="fas fa-angle-double-right"></i></button>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="card_heading">
+                        <img src="assets/images/food/external-content.duckduckgo.com.jpg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3>Homemade pizza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus laborum illo quae
+                            doloremque
+                            iusto esse adipisci amet. Accusamus voluptatibus, dfsd Voluptatibus Voluptatibus
+                        </p>
+
+                        <ul>
+                            <li>
+                                <i class="far fa-clock mr-8 "></i> 45 min
+                            </li>
+                            <li>
+                                <i class="fas fa-utensils mr-8"></i> 4 persons
+                            </li>
+                            <li>
+                                <i class="far fa-star mr-8"></i> 22
+                            </li>
+                            <li class="last-item">
+                                <button class="sl-btn"><i class="fas fa-angle-double-right"></i></button>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="card_heading">
+                        <img src="assets/images/food/external-content.duckduckgo.com.jpg" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h3>Homemade pizza</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus laborum illo quae
+                            doloremque
+                            iusto esse adipisci amet. Accusamus voluptatibus, dfsd Voluptatibus Voluptatibus
+                        </p>
+
+                        <ul>
+                            <li>
+                                <i class="far fa-clock mr-8 "></i> 45 min
+                            </li>
+                            <li>
+                                <i class="fas fa-utensils mr-8"></i> 4 persons
+                            </li>
+                            <li>
+                                <i class="far fa-star mr-8"></i> 22
+                            </li>
+                            <li class="last-item">
+                                <button class="sl-btn"><i class="fas fa-angle-double-right"></i></button>
+                            </li>
+                        </ul>
+
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
-    <div class="header mb-20">
-        <div class="container flex-row flex-space-between">
-
-            <h1 class="title-heading">Fresh & New</h1>
-            <div class="line-header"></div>
+    <!-- wraper -->
+    <footer class="align_center_row">
+        <div class="container flex-space-between footer-m">
+            <div class="f_block align-center">
+                <img src="assets/images/footer_logo.jpg" alt="logo footer babys">
+            </div>
+            <div class="f_block align_center_row">
+                <ul class="f_nav">
+                    <li><a href="#">BREAKFAST</a> </li>
+                    <li>
+                        <div class="circle-white"></div>
+                    </li>
+                    <li><a href="#">BRUNCH</a></li>
+                    <li>
+                        <div class="circle-white"></div>
+                    </li>
+                    <li><a href="#">LUNCH</a></li>
+                    <li>
+                        <div class="circle-white"></div>
+                    </li>
+                    <li><a href="#">DINNER</a></li>
+                </ul>
+            </div>
+            <div class="f_block align_center_row">
+                <p class="white_p">
+                    Baby’s Food Place <br />copyright © 2021
+                </p>
+            </div>
         </div>
 
-    </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $("#togler").click(function () {
+                $("#colapse").toggle();
+            })
+        })
+    </script>
 </body>
 
 </html>

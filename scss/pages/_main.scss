@@ -1,11 +1,20 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+html,
 body {
   font-family: "Roboto Slab", serif;
   background: $bgcolor;
+  height: 100%;
 }
 .title-heading {
   color: $green;
+}
+/*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
 }

@@ -3,7 +3,7 @@ $grey: #636b72;
 
 /*# Default button styles */
 .btt {
-  padding: 10px 14px;
+  padding: 10px 30px;
   touch-action: manipulation;
   cursor: pointer;
   display: inline-block;
@@ -49,4 +49,20 @@ $grey: #636b72;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 16px;
+}
+.pill-bs {
+  background-color: $green;
+  border: none;
+  color: #ffffff;
+  padding: 2px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.br {
+  border: 1px solid;
 }
